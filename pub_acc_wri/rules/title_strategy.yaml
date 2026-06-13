@@ -1,0 +1,47 @@
+# 文章标题策略大全
+title_strategies:
+  - name: 痛点直击式
+    description: 直接戳中读者烦恼与焦虑，快速引发代入感
+    formula: "痛点 + 后果 / 解决方案"
+    example: "Python日志乱打印？90%的人都踩过这个坑"
+
+  - name: 利益价值式
+    description: 明确告知读者阅读后的收获与好处
+    formula: "掌握XX，帮你收获XX"
+    example: "学会这套Loguru配置，从此告别重复日志烦恼"
+
+  - name: 数字清单式
+    description: 数字自带条理感，降低阅读决策成本
+    formula: "数字 + 干货合集主题"
+    example: "8种线程安全解决方案，后端开发必备"
+
+  - name: 悬念好奇式
+    description: 话留一半，勾起读者探索欲
+    formula: "真相/秘密/原来 + 反转结论"
+    example: "为什么日志一定要清空默认处理器？真相很多人不知道"
+
+  - name: 对比反差式
+    description: 利用前后落差制造冲击力，强化记忆点
+    formula: "错误做法 VS 正确做法"
+    example: "别再用print打日志了！专业程序员都这样做"
+
+  - name: 权威背书式
+    description: 借助身份、经验建立专业信任感
+    formula: "专业身份/从业经验 + 核心结论"
+    example: "十年后端架构师，总结出的日志最佳实践"
+
+  - name: 反问设问式
+    description: 以提问引发思考，直击用户内心疑惑
+    formula: "大众普遍关心的核心问题"
+    example: "写文章到底该先定标题，还是先写内容？"
+
+  - name: 正式总结式
+    description: 风格稳重规整，适用于公文、申论、技术文档
+    formula: "前缀定语 + 核心主题 + 总结收尾"
+    example: "浅谈Python项目日志规范化配置与最佳实践"
+
+## 场景适配建议
+#scene_suggest:
+#  wechat_official: ["痛点直击式", "数字清单式", "悬念好奇式", "对比反差式"]
+#  official_document: ["正式总结式", "权威背书式", "利益价值式"]
+#  tech_article: ["痛点直击式", "利益价值式", "数字清单式"]

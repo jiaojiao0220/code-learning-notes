@@ -1,0 +1,20 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+# @Author : jiaojiao
+# @Time : 2026/5/31 14:13
+# 应用配置
+
+# 工作流配置
+workflow:
+  review_mode: "standard"  # loose, standard, strict
+  enable_search: false
+  stop_on_error: true
+
+# 向量库配置
+vector_store:
+  persist_directory: "./data/chroma_db"
+
+# 搜索配置
+search:
+  tavily_api_key: "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"  # 可选，不填则使用本地搜索
+  searxng_url: "http://localhost:8888/search"

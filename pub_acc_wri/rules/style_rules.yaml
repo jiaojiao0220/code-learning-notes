@@ -1,0 +1,73 @@
+# 写作风格规则库
+
+官媒沉稳风:
+  sentence_length: mixed
+  golden_sentence_density: 800
+  allow_emoji: false
+  allow_first_person: false
+  pronoun: "我们/大家"
+  features:
+    - "克制理性"
+    - "辩证分析"
+    - "排比递进"
+    - "设问引导"
+  temperature: 0.6
+  example_phrases:
+    - "值得注意的是"
+    - "从另一个角度看"
+    - "毋庸置疑"
+    - "需要指出的是"
+
+故事共鸣风:
+  sentence_length: short
+  golden_sentence_density: 400
+  allow_emoji: true
+  allow_first_person: true
+  pronoun: "我/你"
+  features:
+    - "第一人称叙事"
+    - "情绪表达"
+    - "金句密集"
+    - "画面感描写"
+  temperature: 0.8
+  example_phrases:
+    - "我记得"
+    - "说实话"
+    - "你懂吗"
+    - "真的"
+
+硬核干货风:
+  sentence_length: short
+  golden_sentence_density: 1000
+  allow_emoji: false
+  allow_first_person: false
+  pronoun: "你/用户"
+  features:
+    - "数据支撑"
+    - "步骤清晰"
+    - "结论先行"
+    - "少废话"
+  temperature: 0.5
+  example_phrases:
+    - "简单来说"
+    - "具体步骤"
+    - "关键点在于"
+    - "总结一下"
+
+吐槽锐评风:
+  sentence_length: very_short
+  golden_sentence_density: 200
+  allow_emoji: true
+  allow_first_person: true
+  pronoun: "我/你们"
+  features:
+    - "立场鲜明"
+    - "短句快节奏"
+    - "网络梗"
+    - "反问讽刺"
+  temperature: 0.9
+  example_phrases:
+    - "我就直说了"
+    - "不是吧"
+    - "懂的都懂"
+    - "emmm"

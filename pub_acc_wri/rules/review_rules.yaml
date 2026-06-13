@@ -1,0 +1,43 @@
+# 复审规则库
+
+strict:
+  check_structure: true
+  check_logic: true
+  check_dialectic: true
+  check_reverse_priority: true
+  check_emotion: true
+  check_elevation: true
+  auto_rewrite: true
+  max_rewrite_rounds: 3
+  thresholds:
+    min_sections: 5
+    max_exclamation: 3
+    min_elevation_words: 2
+
+standard:
+  check_structure: true
+  check_logic: true
+  check_dialectic: true
+  check_reverse_priority: true
+  check_emotion: false
+  check_elevation: false
+  auto_rewrite: false
+  max_rewrite_rounds: 1
+  thresholds:
+    min_sections: 4
+    max_exclamation: 5
+    min_elevation_words: 1
+
+loose:
+  check_structure: true
+  check_logic: true
+  check_dialectic: false
+  check_reverse_priority: false
+  check_emotion: false
+  check_elevation: false
+  auto_rewrite: false
+  max_rewrite_rounds: 0
+  thresholds:
+    min_sections: 3
+    max_exclamation: 10
+    min_elevation_words: 0

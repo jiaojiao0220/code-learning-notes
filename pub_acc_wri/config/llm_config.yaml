@@ -1,0 +1,42 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+# @Author : jiaojiao
+# @Time : 2026/5/31 14:13
+
+# LLM API配置文件
+# 支持多种API类型：openai_compatible, ollama, custom
+
+# 当前使用的API类型（必填）
+active_type: "openai_compatible"  # 可选: openai_compatible, ollama, custom
+
+# OpenAI兼容API配置（支持OpenAI、DeepSeek、硅基流动、智谱等）
+openai_compatible:
+  base_url: "https://token-plan-cn.xiaomimimo.com/v1"  # 或 https://api.deepseek.com/v1
+  api_key: "tp-c1wy8k13dhtyqhehjyt4klg6z650md8z7kxhqiqy37c78gax"                       # 你的API Key
+  model_name: "mimo-v2.5-pro"               # 或 deepseek-chat, glm-4-flash
+  temperature: 0.8
+  max_tokens: 131072
+  top_p: 0.95
+  frequency_penalty: 0.1
+  presence_penalty: 0.1
+
+# Ollama本地配置
+ollama:
+  base_url: "http://localhost:11434"
+  model_name: "qwen2.5:14b-instruct-q4_K_M"
+  temperature: 0.7
+  max_tokens: 4096
+  top_p: 0.9
+  frequency_penalty: 0.1
+  presence_penalty: 0.1
+
+# 自定义API配置（兼容OpenAI协议的都可）
+custom:
+  base_url: "http://your-api-server/v1"
+  api_key: "your-key"
+  model_name: "your-model"
+  temperature: 0.7
+  max_tokens: 4096
+  top_p: 0.9
+  frequency_penalty: 0.1
+  presence_penalty: 0.1
