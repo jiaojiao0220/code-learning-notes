@@ -25,6 +25,7 @@ async def run_software_development_team():
             model=os.getenv("MIMO_V", "gpt-4o"),
             api_key=os.getenv("MIMO_API_KEY"),
             base_url=os.getenv("base_url", "https://api.openai.com/v1"),
+            # 非openai模型，必须使用model_info
             model_info={
                 "function_calling": True,
                 "max_tokens": 4096,
