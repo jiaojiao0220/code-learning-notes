@@ -164,7 +164,8 @@ async def run_software_development_team():
 
     result = team_chat.run_stream(task=task)
     async for message in result:
-        Console().print(message)
+        # print(message)
+        pass
     return result
 # 主程序入口
 if __name__ == "__main__":

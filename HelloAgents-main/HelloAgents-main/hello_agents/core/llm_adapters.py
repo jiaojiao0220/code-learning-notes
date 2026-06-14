@@ -867,6 +867,7 @@ def create_adapter(
     根据base_url自动选择适配器
 
     检测逻辑：
+
     - anthropic.com -> AnthropicAdapter
     - googleapis.com 或 generativelanguage -> GeminiAdapter
     - 其他 -> OpenAIAdapter（默认）
